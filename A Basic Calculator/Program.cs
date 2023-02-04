@@ -13,8 +13,8 @@ namespace A_Basic_Calculator
             do
             {
                 Console.Write("x = ");
-                string str = Console.ReadLine();
-                if (str == "exit")
+                string str = Console.ReadLine(); // takes string input
+                if (str == "exit") // if user input is "exit" this will stop tho code from executing
                 {
                     break;
                 }
@@ -43,6 +43,8 @@ namespace A_Basic_Calculator
                 }
             }
             while (true);
+            Console.Read();
         }
+       
     }
 }
